@@ -4,9 +4,9 @@ A trainer for the game Overlord - Rising Hell version 1.3
 
 ## Download Section
 
-download win_x64 version [here](https://github.com/bengabay1994/OverlordTrainer/releases/tag/win_x64_v1.0)
+download win_x64 version [here](https://github.com/bengabay1994/OverlordTrainer/releases/tag/win_x64_v1.1)
 
-download win_x86 version [here](https://github.com/bengabay1994/OverlordTrainer/releases/tag/win_x86_v1.0)
+download win_x86 version [here](https://github.com/bengabay1994/OverlordTrainer/releases/tag/win_x86_v1.1)
 
 ## How To Section
 
