@@ -29,6 +29,7 @@ namespace OverLordTrainer
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.HeaderFoundLabel = new System.Windows.Forms.Label();
             this.FoundGameL = new System.Windows.Forms.Label();
             this.BrownMinionsTB = new System.Windows.Forms.TextBox();
@@ -147,11 +148,11 @@ namespace OverLordTrainer
             this.OneHitKillCB.UseVisualStyleBackColor = true;
             this.OneHitKillCB.CheckedChanged += new System.EventHandler(this.OneHitKillCB_CheckedChanged);
             // 
-            // DamageMultiplierB
+            // DamageMultiplierCB
             // 
             this.DamageMultiplierCB.AutoSize = true;
             this.DamageMultiplierCB.Location = new System.Drawing.Point(12, 191);
-            this.DamageMultiplierCB.Name = "DamageMultiplierB";
+            this.DamageMultiplierCB.Name = "DamageMultiplierCB";
             this.DamageMultiplierCB.Size = new System.Drawing.Size(241, 19);
             this.DamageMultiplierCB.TabIndex = 13;
             this.DamageMultiplierCB.Text = "Damage Multiplier (Default x2, LCtrl + D)";
@@ -169,7 +170,7 @@ namespace OverLordTrainer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(430, 233);
             this.Controls.Add(this.DamageMultiplierTB);
             this.Controls.Add(this.DamageMultiplierCB);
             this.Controls.Add(this.OneHitKillCB);
@@ -183,9 +184,10 @@ namespace OverLordTrainer
             this.Controls.Add(this.BrownMinionsTB);
             this.Controls.Add(this.FoundGameL);
             this.Controls.Add(this.HeaderFoundLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Overlord Trainer";
             this.Shown += new System.EventHandler(this.Form1_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

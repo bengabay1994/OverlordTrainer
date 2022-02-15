@@ -60,7 +60,6 @@ namespace OverLordTrainer
 
         private async Task FindGameAsync()
         {
-            string failReason;
             while (true)
             {
                 if (singleProcessMemory.IsProcessOpen())
